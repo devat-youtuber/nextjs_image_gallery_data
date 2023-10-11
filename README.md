@@ -20,7 +20,7 @@ II. Implementation Guide.
 
 1. Setup     
   - npx create-next-app@latest      
-  - npm i mongoose next-auth cloudinary react-tostify         
+  - npm i mongoose next-auth cloudinary react-toastify         
   - next.config.js      
     + experimental: {       
         serverActions: true      
