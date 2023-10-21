@@ -105,40 +105,40 @@ II. Implementation Guide.
   - favoritePhoto Actions   
 
 12. Profile Info   
-    - GetUserById   
-    - formatNumber         
-    - followUser  
+  - GetUserById   
+  - formatNumber         
+  - followUser  
 
 13. Profile Edit        
-    - Edit Profile Modal   
-    - handleInputFiles   
-    - handleDrop   
-    - handleUpdateUser         
-    - updateUser actions  
-    - uploadToCloudinary   
-    - destroyFromCloudinary  
+  - Edit Profile Modal   
+  - handleInputFiles   
+  - handleDrop   
+  - handleUpdateUser         
+  - updateUser actions  
+  - uploadToCloudinary   
+  - destroyFromCloudinary  
     
 14. Profile Follow   
-    - getUsers      
-      + generateUsersMatch         
-      + generateUsersPipeline         
-    - ListOfUsers Component   
-    - UserCard Component   
-    - handleFollow         
-    - Optimization with React Memo  
+  - getUsers      
+    + generateUsersMatch         
+    + generateUsersPipeline         
+  - ListOfUsers Component   
+  - UserCard Component   
+  - handleFollow         
+  - Optimization with React Memo  
 
 15. Profile Menu         
-    - getPhotosCount (public, private, favorite)            
-    - generatePhotosMatch          
-    - generatePhotosCountPipeline   
+  - getPhotosCount (public, private, favorite)            
+  - generatePhotosMatch          
+  - generatePhotosCountPipeline   
 
 16. Profile Gallery    
-    - getPhotos      
-    - middleware (private, favorite)     
+  - getPhotos      
+  - middleware (private, favorite)     
 
 17. Fix Error   
-    - Caching   
-    - LoadMore when "click to go back" on browser       
+  - Caching   
+  - LoadMore when "click to go back" on browser       
 
 18. Edit + Delete Photo        
   - updatePhoto Actions          
@@ -150,11 +150,11 @@ II. Implementation Guide.
 
  
 20. Search Menu   
-    - generateMatch (users, photos)   
-    - generatePipeline (users, photos)   
+  - generateMatch (users, photos)   
+  - generatePipeline (users, photos)   
 
-    - getPhotosCount   
-    - getUsersCount    
+  - getPhotosCount   
+  - getUsersCount    
 
 
 21. Search Gallery + Search Users           
