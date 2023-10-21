@@ -28,7 +28,7 @@ II. Implementation Guide.
       images: {           
         domains: ['lh3.googleusercontent.com', 'res.cloudinary.com'],             
       }           
-  - layout.js (font Faustina, metadata, , react-toastify)   
+  - layout.js (font Faustina, metadata, , react-toastify, google icons)       
   - globals.css    
   - Public Images   
 
