@@ -28,7 +28,7 @@ II. Implementation Guide.
       images: {           
         domains: ['lh3.googleusercontent.com', 'res.cloudinary.com'],             
       }           
-  - layout.js (font Faustina, metadata, , react-toastify, google icons)       
+  - layout.js (font Faustina, metadata, , react-toastify, google icons)   
   - globals.css    
   - Public Images   
 
@@ -97,7 +97,8 @@ II. Implementation Guide.
 10. Infinite Scrolling Pagination       
   - next_cursor       
   - LoadMore   
-    + generateMatch        
+    + generateMatch
+    + generatePipeline        
   - hooks => useInView()     
 
 11. Favorite Photo   
@@ -107,7 +108,6 @@ II. Implementation Guide.
 12. Profile Info   
   - GetUserById   
   - formatNumber         
-  - followUser  
 
 13. Profile Edit        
   - Edit Profile Modal   
@@ -118,7 +118,8 @@ II. Implementation Guide.
   - uploadToCloudinary   
   - destroyFromCloudinary  
     
-14. Profile Follow   
+14. Profile Follow  
+  - followUser   
   - getUsers      
     + generateUsersMatch         
     + generateUsersPipeline         
@@ -172,7 +173,8 @@ II. Implementation Guide.
 23. Next, Prev Photo    
 
 
-24. Deploy Vercel        
+24. Deploy Vercel   
+  - npm i sharp     
   - Run build => Test         
   - Upload to Github          
   - Deploy to Vercel            
